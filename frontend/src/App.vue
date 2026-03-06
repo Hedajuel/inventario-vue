@@ -1,7 +1,7 @@
 <template>
-  <router-view />
+  <MainLayout />
 </template>
 
 <script setup>
-// App.vue simplificado, todo el layout está en MainLayout
+import MainLayout from '@/components/layout/MainLayout.vue'
 </script>
